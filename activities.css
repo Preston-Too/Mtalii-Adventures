@@ -1,27 +1,3 @@
-/* .Activities {
-    background-color: rgb(229, 202, 231);
-    position: static;
-    right: 100%;
-    color: rgb(185, 172, 172);
-    background-image: url("/home/moringa/activities.css/Images/pexels-roman-odintsov-4553618.jpg");
-}
-.img {
-    margin: auto;
-    display: block;
-    width: 60%;
-}
-.photos {
-    display: inline;
-}
-.pictures {
-    display: flex;
-}
-.pictures>div {
-     width: 400px;
-}
-div>h8 {
-    font-size: medium;
-} */
 
 * {
     font-family: "Raleway", sans-serif;
@@ -34,10 +10,6 @@ div>h8 {
     padding-top: 160px;
     padding-left: 50px;
   }
-  .header{
-      
-  }
-
   .tagline {
     background-color: #29AB46;
     height: 50px;
