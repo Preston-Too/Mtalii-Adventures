@@ -1,0 +1,194 @@
+/* .Activities {
+    background-color: rgb(229, 202, 231);
+    position: static;
+    right: 100%;
+    color: rgb(185, 172, 172);
+    background-image: url("/home/moringa/activities.css/Images/pexels-roman-odintsov-4553618.jpg");
+}
+.img {
+    margin: auto;
+    display: block;
+    width: 60%;
+}
+.photos {
+    display: inline;
+}
+.pictures {
+    display: flex;
+}
+.pictures>div {
+     width: 400px;
+}
+div>h8 {
+    font-size: medium;
+} */
+
+* {
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  .page {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 160px;
+    padding-left: 50px;
+  }
+  .header{
+      
+  }
+
+  .tagline {
+    background-color: #29AB46;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 150px;
+  }
+  .tagline a{
+      text-decoration: none;
+      color: black;
+      letter-spacing: 0.5px;
+  }
+  .logo img {
+    width: 17%;
+    height: 17%;
+    box-shadow: 0px 8px 27px rgba(38, 132, 218, 0.1);
+  }
+  .logo-bg {
+    background-color:#298eab;
+    margin-bottom: 2px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+  }
+  .nav-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    height: 7px;
+  }
+  .right-side {
+    display: flex;
+    height: 0.5px;
+    /* flex-wrap: wrap; */
+  }
+  .nav-wrapper > .right-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+  }
+  .nav-link-wrapper a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    }
+    footer {
+    background-color: #298EAB;
+    color: #bbb;
+    line-height: 1.5;
+    height: 300px;
+    }
+    footer a {
+    text-decoration: none;
+    color: #eee;
+    }
+    a:hover {
+    text-decoration: underline;
+    }
+    .ft-title {
+    color: #fff;
+    font-family: ’Merriweather’, serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+    }
+    body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    }
+    .container {
+    flex: 1;
+    }
+    .ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem ;
+    }
+    @media only screen and (min-width: 29.8125rem ) {
+    .ft-main {
+    justify-content: space-around;
+    }
+    }
+    @media only screen and (min-width: 77.5rem  ) {
+    .ft-main {
+    justify-content: space-evenly;
+    }
+    }
+    form {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+    }
+    input[type="submit"] {
+    background-color:  #29AB46;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+    }
+    .ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px black solid;
+    padding-top: 1.25rem;
+    }
+    .ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+    }
+    .ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: #29AB46;
+    }
+    .ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+    }
+    .contents{
+      margin-bottom: 50px;
+    }
+    /* one before the last child */
+    .ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+    }
+  
+

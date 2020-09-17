@@ -1,0 +1,411 @@
+
+ 
+/* Master Styles */
+
+* {
+  font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+.tagline {
+  background-color: #29ab46;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 150px;
+
+}
+
+.tagline a{
+    text-decoration: none;
+    color: black;  
+    letter-spacing: 0.5px; 
+}
+
+   
+
+.logo img {
+  width: 17%;
+  height: 17%;
+  box-shadow: 0px 8px 27px rgba(38, 132, 218, 0.1);
+}
+
+
+.logo-bg {
+  background-color:#298eab;
+  margin-bottom: 2px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 1px;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  opacity: 0.8;
+}
+
+
+
+.nav-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  height: 7px;
+}
+
+.right-side {
+  display: flex;
+  height: 0.5px;
+  flex-wrap: wrap;
+}
+
+.nav-wrapper > .right-side > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+}
+
+
+.nav-link-wrapper a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+.adventure-begin{
+  text-align: center;
+  padding: 20px 50px;
+  line-height: 1.65;
+  max-width: 1500px;
+  margin: 10px auto 0 auto;
+  font-family: "Lucida Console", Monaco, monospace;
+  
+
+}
+
+/* Body Styles */
+.body-img-backgrounda {
+  background-image: url("IMAGES/dan-cutler-3CCt4DcycWA-unsplash.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.body-img-backgroundb {
+  background-image: url("IMAGES/joel-herzog-1xetOxStk_Y-unsplash.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.body-img-backgroundc {
+  background-image: url("IMAGES/dimitris-chapsoulas-pghVp-3vA2Q-unsplash.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.body-img-backgrounde {
+  background-image: url("IMAGES/jonatan-pie-1b4CCsFSzjw-unsplash.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.body-img-backgroundf {
+  background-image: url("IMAGES/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.body-img-backgroundg {
+  background-image: url("IMAGES/nur-azizah-BWl-Bezo1BE-unsplash.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.body-img-backgroundh {
+  background-image: url("IMAGES/partha-narasimhan-PJBXdSyPmgc-unsplash.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.body-img-backgroundi {
+  background-image: url("IMAGES/matthew-spiteri-WfZ4WCuNtlg-unsplash.jpg");
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.body-items-wrapper {
+  padding-top: 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  
+}
+.body-item-wrapper {
+  position: relative;
+}
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.img-text-wrapper .subtitle {
+  transition: 0.3s;
+  color: transparent;
+  font-weight: bold;
+}
+
+.img-text-wrapper:hover .subtitle {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  font-size: 20px;
+
+}
+
+.logo-wrapper img {
+  width: 50%;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.img-darken {
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+.Review{
+  text-align: center;
+  padding: 20px 50px;
+  line-height: 1.65;
+  max-width: 1500px;
+  margin: 10px auto 0 auto;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.parent{
+  background-color:  #29ab46;
+  height: 300px;
+  background-image: url(IMAGES/rebecca-campbell-iR8PoxQWj0o-unsplash.jpg);
+  background-position: center;
+  display: flex;
+}
+.first-child{
+  flex: 1;
+  background-color: white;
+  height: 150px;
+  margin-right: 40px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+/* FOOTER */
+
+/* main class for footer design*/
+ul {
+  list-style: none;
+  padding-left: 0;
+  }
+  footer {
+  background-color: #298eab;
+  color: #bbb;
+  line-height: 1.5;
+  height: 300px;
+  }
+  footer a {
+  text-decoration: none;
+  color: #eee;
+  }
+  a:hover {
+  text-decoration: underline;
+  }
+  .ft-title {
+  color: #fff;
+  font-family: ’Merriweather’, serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+  }
+  body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  }
+  .container {
+  flex: 1; 
+  }
+  
+  .ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem ;
+  }
+  @media only screen and (min-width: 29.8125rem ) {
+  .ft-main {
+  justify-content: space-around;
+  }
+  }
+  @media only screen and (min-width: 77.5rem  ) {
+  .ft-main {
+  justify-content: space-evenly;
+  }
+  }
+  form {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  input[type="email"] {
+  border: 0;
+  padding: 0.625rem;
+  margin-top: 0.3125rem;
+  }
+  input[type="submit"] {
+  background-color:  #29ab46;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  padding: 0.625rem 0.9375rem;
+  margin-top: 0.3125rem;
+  }
+
+  .ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px black solid; 
+  padding-top: 1.25rem;
+  }
+  .ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+  }
+  .ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: #29ab46;
+  }
+  .ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+  }
+  .contents{
+    margin-bottom: 50px;
+  }
+  /* one before the last child */
+  .ft-legal-list li:nth-last-child(2) {
+  flex: 1; 
+  }
+  
+
+/* ABOUT PAGE */
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.profile-content-wrapper {
+  padding: 30px;
+}
+
+.profile-content-wrapper h2 {
+  color: #2684da;
+  text-decoration: underline;
+}
+
+.about-mtalii{
+ 
+  height: 500px;
+  background-image: url("IMAGES/thomas-lefebvre-34mvN5nt1ls-unsplash.jpg");
+  background-position: center;
+  font-size: 30px;
+ 
+}
+.about-mtalii h2{
+  padding-top: 22%;
+  padding-left: 5%;
+  font-family: 'Raleway' sans-serif;
+  text-shadow:  1px 1px black;
+
+}
+.about-adventure{
+  
+  padding: 20px 50px;
+  line-height: 2;
+  max-width: 1600px;
+  margin: 10px auto 0 auto;
+  font-family: "Lucida Console", Monaco, monospace;
+  /* font-size: small; */
+}
+.parent-booking{
+  margin: 10px auto 0 auto;
+  font-size: small;
+  line-height: 2;
+  max-width: 1600px;
+
+}
+.call{
+  background-color: #2684da;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  align-items: center;
+  padding-right: 6px;
+  margin-left: 640px;
+  
+  
+
+}
