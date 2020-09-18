@@ -6,7 +6,8 @@
   .container {
     display: grid;
     grid-template-columns: 1fr;
-    padding-top: 200px;;
+    padding-top: 200px;
+    padding-left: 10px;
   }
   .tagline {
     background-color: #29AB46;

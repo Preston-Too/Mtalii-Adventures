@@ -373,10 +373,12 @@ ul {
  
 }
 .about-mtalii h2{
-  padding-top: 22%;
+  padding-top: 30%;
   padding-left: 5%;
   font-family: 'Raleway' sans-serif;
   text-shadow:  1px 1px black;
+  color: white;
+  text-align: center;
 
 }
 .about-adventure{

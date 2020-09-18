@@ -24,6 +24,7 @@
       color: black;
       letter-spacing: 0.5px;
   }
+
   .logo img {
     width: 17%;
     height: 17%;
@@ -63,6 +64,62 @@
   }
   .nav-link-wrapper a:hover {
     color: black;
+  }
+  .pic1{
+    display: flex;
+  }
+
+  .pic2{
+    display: flex;
+  }
+
+  .pic3{
+    display: flex;
+  }
+  .pic4{
+    display: flex;
+  }
+  .pic5{
+    display: flex;
+  }
+  .pic6{
+    display: flex;
+  }
+  .paragraph1{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .paragraph2{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .paragraph3{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .paragraph4{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .paragraph5{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .paragraph6{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
 
 ul {
